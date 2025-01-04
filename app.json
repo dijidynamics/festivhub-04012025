@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "festivHub-04012025",
+    "slug": "festivhub-04012025",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dijidynamics.festivhub04012025"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dijidynamics.festivhub04012025"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b0c3b410-c595-4341-8899-b2bf7b82d2fc"
+      }
+    },
+    "owner": "dijidynamics",
+    "updates": {
+      "url": "https://u.expo.dev/b0c3b410-c595-4341-8899-b2bf7b82d2fc"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
